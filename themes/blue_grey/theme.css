@@ -1,0 +1,117 @@
+
+.list_item, .edit_item {
+    line-height:30px;
+	background:-moz-linear-gradient(center top , #fff 0%, #ffe 100%) repeat scroll 0 0 transparent;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(256,256,256,1)), color-stop(100%,rgba(256,256,240,1))); /* Chrome,Safari4+ */
+	background:-webkit-linear-gradient(top,  rgba(256,256,256,1) 0%,rgba(250,250,250,1) 100%); /* Chrome10+,Safari5.1+ */
+	background:-o-linear-gradient(top,  rgba(256,256,256,1) 0%,rgba(256,256,240,1) 100%); /* Opera 11.10+ */
+	background:-ms-linear-gradient(top,  rgba(256,256,256,1) 0%,rgba(256,256,240,1) 100%); /* IE10+ */
+	background:linear-gradient(top,  rgba(256,256,256,1) 0%,rgba(256,256,240,1) 100%); /* W3C */
+}
+
+
+.overdue {
+    line-height:30px;
+	background:-moz-linear-gradient(center top , #f55 0%, #f00 100%) repeat scroll 0 0 transparent;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(256,256,256,1)), color-stop(100%,rgba(256,256,240,1))); /* Chrome,Safari4+ */
+	background:-webkit-linear-gradient(top,  rgba(256,100,100,1) 0%,rgba(255,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
+	background:-o-linear-gradient(top,  rgba(256,0,0,1) 0%,rgba(256,256,240,1) 100%); /* Opera 11.10+ */
+	background:-ms-linear-gradient(top,  rgba(256,0,0,1) 0%,rgba(256,256,240,1) 100%); /* IE10+ */
+	background:linear-gradient(top,  rgba(256,0,0,1) 0%,rgba(256,256,240,1) 100%); /* W3C */
+}
+
+.edit_item, .edit_item_class_removed {
+	border-top: 3px dashed darkGray !important;
+}
+
+/*.list_item:before, .edit_item:before {
+	content:'      &#8226;    ';
+}*/
+
+.active_1 {
+    background:-moz-linear-gradient(center top , red 0%, blue 100%) repeat scroll 0 0 transparent;
+	background: rgb(64,193,235); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(64,193,235,1) 0%, rgba(40,154,216,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(64,193,235,1)), color-stop(100%,rgba(40,154,216,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(64,193,235,1) 0%,rgba(40,154,216,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(64,193,235,1) 0%,rgba(40,154,216,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(64,193,235,1) 0%,rgba(40,154,216,1) 100%); /* IE10+ */
+	background: linear-gradient(top,  rgba(64,193,235,1) 0%,rgba(40,154,216,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#40c1eb', endColorstr='#289ad8',GradientType=0 ); /* IE6-9 */
+    border:none;
+}
+
+.item_counter {
+    padding:2px 4px;
+    font-family: Helvetica;
+    font-size: 10px;
+    margin:10px;
+    -webkit-border-radius:10px;
+}
+
+.inactive_item_counter {
+    color: DarkTurquoise;
+    border: 1px solid DarkTurquoise;
+    background-color: white;	
+}
+
+.active_item_counter {
+    text-shadow: 0px 0px 0.5px #888;
+    color: white;
+    border: 1px solid #d7d7d9;
+    background-color:#2173a1;
+}
+
+body > ul > li > a {
+	padding:5px;
+} 
+
+/*
+#listHomeItems_button {
+    -moz-border-radius: 9px 9px 9px 9px;
+    background: url("images/icons/icons-18-white.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0.4) !important
+               ;
+} */
+
+.inner_button, input, textarea {
+	border:3px solid white;
+    -moz-border-radius:20px;
+    -webkit-border-radius:20px;
+    background-color:#DDD;
+    box-shadow: 1px 2px 6px 1px #DDDDDD;
+    font-weight:bold;
+    text-decoration:none;
+    /*display:none; */
+	font-size:18px;
+ 	margin:6px 1px;
+ 	line-height:18px;
+ 	vertical-align:text-bottom;
+}
+
+.inner_button, .round_button {
+    height:30px;
+    width:30px;
+    display:none;
+    cursor:pointer;
+}
+
+li {
+	
+    list-style:disc;
+    list-style-type:circle;	
+}
+
+ul {
+    list-style:disc;
+    list-style-type:circle;
+}
+
+.list_buttons_span {
+	float:left;
+	margin-right:7px;
+	z-index:10;
+}
+
+/*.login_input {
+	color:#2173A1;
+}*/

@@ -1,0 +1,108 @@
+/**
+ * Author: Hasin Hayder
+ * Date: November 23, 2011
+ * Email: hasin@leevio.com
+ */
+body {
+    /*background-color:#34393f;*/
+    background-image: url(../images/bg.jpg);
+}
+.css365-container {
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+ul.css365-nicelist {
+    list-style: none;
+    list-style-type: none;
+}
+
+.css365-nicelist li.css365-nicelist-listitem {
+    background-image: url(../images/menu-bg.jpg);
+    background-repeat: repeat-x;
+    min-height: 36px;
+    vertical-align: middle;
+    width: 220px;
+}
+
+.css365-nicelist li.css365-nicelist-listitem-active {
+    background-image: url(../images/menu-active-bg.jpg);
+    background-repeat: repeat-x;
+}
+
+li.css365-nicelist-listitem span.css365-nicelist-listtext {
+    float: left;
+    margin-top: 12px;
+    margin-left: 10px;
+    color: #f6f6f6;
+    text-shadow: 1px 1px 1px #111;
+    font-family: Helvetica;
+    font-size: 14px;
+}
+
+li.css365-nicelist-listitem span.css365-nicelist-counter {
+    float: right;
+    font-family: Helvetica;
+    font-size: 11px;
+    margin-right: 20px;
+    margin-top: 6px;
+    padding: 5px;
+    background-color: #48515c;
+    border-radius: 15px;
+    color: #fff;
+    text-shadow: 1px 1px 1px #111;
+}
+
+.css365-nicelist-icon {
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 2px;
+}
+
+.css365-nicelist-liul-container {
+    float: left;
+    margin-top: 9px;
+    padding-top: 10px;
+    background: #fff;
+    padding: 0px;
+}
+
+.css365-nicelist-liul {
+    list-style: none;
+    list-style-type: none;
+    padding: 0px;
+}
+
+.css365-nicelist-liul-item {
+    background-image: url(../images/arrow.png);
+    background-repeat: no-repeat;
+    background-position: 15px 14px;
+    min-height: 36px;
+    vertical-align: middle;
+    width: 220px;
+    border-bottom: 1px solid #efefef;
+}
+
+.css365-nicelist-liul-text {
+    float: left;
+    margin-top: 11px;
+    margin-left: 37px;
+    font-family: Helvetica;
+    font-size: 12px;
+    color: #878d95;
+}
+
+.css365-nicelist-liul-counter {
+    float: right;
+    padding: 3px;
+    padding-bottom: 1px;
+    font-family: Helvetica;
+    font-size: 10px;
+    color: #878d95;
+    margin-right: 22px;
+    margin-top: 7px;
+    border-radius: 9px;
+    border: 1px solid #d7d7d9;
+    text-shadow: 0px 0px 0.5px #888;
+}

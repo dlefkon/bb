@@ -1,0 +1,199 @@
+
+
+.list_item, .edit_item {
+    line-height:30px;
+	background:-moz-linear-gradient(center top , #fff 0%, #ffe 100%) repeat scroll 0 0 transparent;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(256,256,256,1)), color-stop(100%,rgba(256,256,240,1))); /* Chrome,Safari4+ */
+	background:-webkit-linear-gradient(top,  rgba(256,256,256,1) 0%,rgba(250,250,250,1) 100%); /* Chrome10+,Safari5.1+ */
+	background:-o-linear-gradient(top,  rgba(256,256,256,1) 0%,rgba(256,256,240,1) 100%); /* Opera 11.10+ */
+	background:-ms-linear-gradient(top,  rgba(256,256,256,1) 0%,rgba(256,256,240,1) 100%); /* IE10+ */
+	background:linear-gradient(top,  rgba(256,256,256,1) 0%,rgba(256,256,240,1) 100%); /* W3C */
+}
+
+.now_1 {
+	border:none !important;
+}
+
+.edit_item, .edit_item_class_removed {
+	border-bottom: 1px dashed darkGray !important;
+    opacity: 0.7;
+}
+
+/*.list_item:before, .edit_item:before {
+	content:'      &#8226;    ';
+}*/
+
+.active_1 {
+    background:-moz-linear-gradient(center top , red 0%, blue 100%) repeat scroll 0 0 transparent;
+	background: rgb(64,193,235); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(64,193,235,1) 0%, rgba(40,154,216,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(64,193,235,1)), color-stop(100%,rgba(40,154,216,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(64,193,235,1) 0%,rgba(40,154,216,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(64,193,235,1) 0%,rgba(40,154,216,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(64,193,235,1) 0%,rgba(40,154,216,1) 100%); /* IE10+ */
+	background: linear-gradient(top,  rgba(64,193,235,1) 0%,rgba(40,154,216,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#40c1eb', endColorstr='#289ad8',GradientType=0 ); /* IE6-9 */
+    border:none;
+    display: inline;
+    margin: 10px;
+    color:green;
+}
+
+.item_counter {
+   /* padding:2px 4px;
+    font-family: Helvetica;
+    font-size: 10px;
+    margin:10px;
+    -webkit-border-radius:10px; */
+    display:none;
+}
+
+.inactive_item_counter {
+    color: DarkTurquoise;
+    border: 1px solid DarkTurquoise;
+    background-color: white;	
+}
+
+.active_item_counter {
+    text-shadow: 0px 0px 0.5px #888;
+    color: white;
+    border: 1px solid #d7d7d9;
+    background-color:#2173a1;
+}
+
+body > ul > li > a {
+	padding:5px;
+} 
+
+/*
+#listHomeItems_button {
+    -moz-border-radius: 9px 9px 9px 9px;
+    background: url("images/icons/icons-18-white.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0.4) !important
+               ;
+} */
+
+.inner_button, input {
+    padding:0 3px 2px 3px;	
+	-moz-border-radius: 20px;
+   /* background-color:#DDD;*/
+}
+
+.round_button {
+   /* width:14px;	*/
+}
+
+.inner_button{
+    font-size:22px;
+   /* height:18px; */
+    width:30px;
+    display:none;
+    cursor:pointer;
+}
+
+li {
+	display:inline;
+    list-style:disc;
+    list-style-type:circle;	
+}
+
+ul {
+    list-style:disc;
+    list-style-type:circle;
+}
+
+.editItem_button {
+	padding:3px 5px;
+}
+
+.list_buttons_span {
+	float:left;
+	margin-right:7px;
+	z-index:10;
+}
+
+body > ul > li > a {
+    display: inline;
+ /*   padding: 8px 32px 8px 8px;
+    text-decoration: none;
+    color:#2173a1;
+	font-size:14px; */
+}
+
+body > div, body > form, body > ul {
+	display:block;
+	position:relative;
+}
+
+#action_bar {
+	background:none;
+	margin-bottom:30px;
+}
+
+.line_prefix {
+	display:none;
+}
+
+a:link {
+	border:none; /*solid 1px black; */
+	margin:16px;
+	background:none;
+}
+
+.emphasis_10 {
+	color:inherit;
+	font-size:200%;
+}
+
+.emphasis_9 {
+	color:inherit;
+	font-size:190%;
+}
+
+.emphasis_8 {
+	color:inherit;
+	font-size:180%;
+}
+
+.emphasis_7 {
+	color:inherit;
+	font-size:170%;
+}
+
+.emphasis_6 {
+	color:inherit;
+	font-size:160%;
+}
+
+.emphasis_5 {
+	color:inherit;
+	font-size:150%;
+}
+
+.emphasis_4 {
+	color:inherit;
+	font-size:140%;
+}
+
+.emphasis_3 {
+	color:inherit;
+	font-size:130%;
+}
+
+.emphasis_2 {
+	color:inherit;
+	font-size:120%;
+}
+
+.emphasis_1 {
+	color:inherit;
+	font-size:110%;
+}
+
+.emphasis_0 {
+	color:inherit;
+	font-size:100%;
+}
+
+#add_child_item_input, #searchItems_input {
+	height:40px;
+}

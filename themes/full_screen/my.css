@@ -1,0 +1,326 @@
+@CHARSET "ISO-8859-1";
+
+
+/*
+/* CSS RESET */
+ html, body, div, span, applet, object, iframe, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address,
+big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd,
+ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0;
+outline: 0; font-weight: inherit; font-style: inherit; font-family: inherit; text-align:left;}
+*/
+
+
+
+
+	
+/* remember to define focus styles! */
+:focus { outline: 0; }
+ol, ul { list-style-type: none; list-style-position:outside;}
+/* tables still need 'cellspacing="0"' in the markup */
+table { border-collapse: separate; border-spacing: 0; width:100%;}
+caption, th, td { text-align: left; font-weight: normal; }
+blockquote:before, blockquote:after, q:before, q:after { content: ""; }
+blockquote, q { quotes: "" ""; }
+/* END RESET */
+	
+
+
+img {
+}
+
+/*a:link {
+  text-decoration: none;
+  color:#22F;
+}*/
+	
+a:visited {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+a {
+	color: #AF4600;
+	border-bottom:1px solid #fff; 
+	text-decoration:none;
+}
+
+.frame_in {
+  padding:0;
+  border:solid #ccc 1px;
+  border-width: 1px;
+}
+
+.frame_mid {
+  border:solid white 3px;
+  background-color:#ffd;
+  border-width: 1px;
+}
+
+.frame_out {
+  padding:3px;
+  border:solid #aaa 1px;
+  background-color:#eee;
+
+  
+	-moz-box-shadow: 0 0 1em grey;
+	-webkit-box-shadow: 0 0 1em grey;
+	box-shadow: 0 0 1em grey;
+
+	margin-top:20px;
+}
+
+#header {
+  height:233px;
+  margin:0;
+  border-bottom:1px solid #C5D5EA;
+  border-right:1px solid #C5D5EA;
+  border-left:1px solid #C5D5EA;
+}
+
+#header_image {
+  opacity:.2;
+}
+
+#inner_container {
+  border-left:1px solid white;
+  border-right:1px solid white;
+  border-bottom:1px solid white;
+}
+
+.legend {
+  font-weight:bold;
+  font-size:15px;
+}
+
+.links_span {
+  width:130px;
+  display:inline-block;
+}
+
+#menu a {
+  font-family:"Trebuchet MS",Verdana,Arial,sans-serif;
+  font-size:75%;
+  text-align:center;
+  vertical-align:bottom;
+  text-decoration:none;
+  width:139px;
+	font-size:14px;
+	font-variant: small-caps;
+	padding-top:40px;
+  height:20px;
+  opacity:0.70;
+  /* filter:alpha(opacity=70); */
+  -moz-opacity:.7;
+}
+
+.mylist {
+	padding:2px 0px 2px 10px;
+}
+
+.site_span {
+	width:130px;
+  display:inline-block;
+}
+
+.spacer {
+	margin:0 auto;
+	width:90%;
+}
+
+#strip {
+  background-color:black;
+  border-bottom:2px solid white;
+  border-top:1px solid #ddd;
+  height:37px;
+  opacity:.25;
+  /*filter:alpha(opacity=25); */
+  -moz-opacity:.25; 
+}
+
+#strip_text {
+  color:white;
+  opacity:1;
+  /* filter:alpha(opacity=100); */
+  -moz-opacity:1;
+  font-size:30px;
+  float:right;
+  padding-right:10px;
+  font-border:black 8px solid;
+}
+
+#google_ad {
+	/* display:none; */
+}
+
+
+
+
+
+
+html { 
+ }
+
+h1,h2,h3,h4,h5 { 
+	color:#000;
+	font-family: Helvetica,Arial,sans-serif;
+	font-weight:normal;
+	padding:0;
+}
+	
+h1 { 
+	color:LightSlateGray;
+    font-size: 2.0em;
+    line-height: 54px;
+    margin: 10px;
+}
+
+h2 { 
+	font-size: .8em;
+	color:white;
+	padding:0 10px;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:140%;
+	color:grey;
+	font-size:1.3em;
+	margin-left:50px;
+	clear:left;
+}
+h3 { font-size: 1.8em; }
+h4 { font-size: 1.5em; }
+h5 { font-size: 1.3em; }
+
+#category_name {
+	font-family:monospace;
+	font-size:2em;
+	color:CornflowerBlue;
+}
+
+em { font-style: italic; }
+
+#header { 
+	height:100px; 
+	position:relative;}
+
+.clear_children {
+	margin-top:-661px;
+	padding-bottom:100px;  
+}
+
+.left, .middle {
+/*	position:absolute;
+	top:0;  */
+	margin-bottom:20px;
+}
+
+.left {
+	font-size: 1.1em;
+	width: 15%;
+}                    
+
+.left a, .left a:link, .left a:visited, .right a, .right a:link, .right a:visited { color: #1C3664; border-bottom:0; }
+
+
+.bottom{
+	font-size: 1.1em;
+	width: 80%;      
+}
+
+#adsensevertical { margin-left:5px; }
+#adsensesmallSquareBlue { margin:15px 0 0 18px; }
+#adsensesmallSquare { float:right; margin:0 0 10px 15px; }
+
+.middle {
+	width:39%;
+	line-height:1.6;  
+	margin:0;
+	position:absolute;
+	left:20%;
+	top:22%;
+	padding:50;
+	z-index:0;
+}
+
+#footer {
+	width: 800px;
+	font-size:1.2em;
+	padding-bottom: 5px;
+	border-top:solid 1px #ccc;
+	text-align:center;
+}
+
+
+.nav {
+    margin: 0 25px;
+}
+
+select {
+	font-size:130%;
+	margin-bottom:20px;
+}
+
+#nav ul li {
+	float: left;
+	padding: 0;
+	line-height:25px;
+}
+
+#nav ul li a {
+	display: block;
+	border-bottom:0;
+	font-size: 3.0em;
+	color: #fff;
+	padding: 2px 13.7px;
+}
+
+
+p {
+  padding:0 20px 20px 0;
+}
+
+.float_and_clear {
+	 clear:left; 
+	 float:left;
+}
+ 
+.content_div {
+	margin:20px;
+	padding:20px;
+	font-size:20px;
+	font-style:arial;
+	/* display:none; */	
+}
+
+.page_el {
+	display:none;
+}
+
+.white_back {
+	background-color:white;
+}
+
+p {
+	text-align:left;
+}
+
+.logo_text {
+	color:white;
+	display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
